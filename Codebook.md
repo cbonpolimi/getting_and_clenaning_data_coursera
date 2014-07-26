@@ -53,9 +53,10 @@ In this file I will explain each variable I create and use to perform the analys
 
 merged_final: result of the binding by column of the two dataframe mean_final and std 
 
-11.We label the dataset
-	a. First we merge the subjects datasets
-	merged_subject<-rbind(subjecttest,subjecttrain)
+11.We label the dataset:
+
+		a. First we merge the subjects datasets
+		merged_subject<-rbind(subjecttest,subjecttrain)
 
 		b. Give a name to the subject column
 		names(merged_subject)<-"subject"
